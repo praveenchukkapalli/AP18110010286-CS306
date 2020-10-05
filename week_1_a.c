@@ -24,10 +24,10 @@ int main()
     }
     //checking whether the 0's and 1's counter is even or not and returning the same
     if(zero%2==0 && one%2==0){
-        printf("\n\nThe given binary string contains even number of 0's and 1's");
+        printf("\n\nstring accepted, The given binary string contains even number of 0's and 1's");
     }
     else{
-        printf("The given binary string does not contain even number of 0's and 1's ");
+        printf("string rejected, The given binary string does not contain even number of 0's and 1's ");
     }
     return 0;
 }
