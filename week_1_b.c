@@ -25,10 +25,10 @@ int main()
     }
     //checking whether the last two binary digits are same
     if(l==sl){
-        printf("\n\nThe given binary string ends with two same symbols");
+        printf("\n\nstring accepted, The given binary string ends with two same symbols");
     }
     else{
-        printf("\n\nThe given binary string does not end with two same symbols ");
+        printf("\n\nstring rejected, The given binary string does not end with two same symbols ");
     }
     return 0;
 }
