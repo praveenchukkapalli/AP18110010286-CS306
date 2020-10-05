@@ -17,6 +17,7 @@ int main()
    
     printf("enter the binary string \n");
     int zero,one=0;
+    //initializing two variables to keep track of no.of zeros and ones
     for(int i=0;i<n;i++){
         int temp;
         printf("enter digit %d : ",i+1);
@@ -28,6 +29,7 @@ int main()
             one+=1;
         }
     }
+    //checking whether the 0's and 1's counter is even or not and returning the same
     if(zero%2==0 && one%2==0){
         printf("\n\nThe given binary string contains even number of 0's and 1's");
     }
