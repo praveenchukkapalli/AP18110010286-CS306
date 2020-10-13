@@ -1,0 +1,62 @@
+#include : Identifiers
+ < : Relational operator
+stdio : Identifiers
+.h : Identifiers
+> : Relational operator
+
+int : Keyword
+ main : Keyword
+() {
+    double : Identifiers
+ num : Identifiers
+;
+    printf : Identifiers
+("Enter : Identifiers
+ a : Identifiers
+ number : Identifiers
+: ");
+    scanf : Identifiers
+("%lf : Identifiers
+", &num : Identifiers
+);
+    /* this is comment */ : comments - To Be Ignored 
+
+    if : Keyword
+ (num : Identifiers
+ <= : Relational operator
+ 0 : Integer
+.0 : Integer
+) {
+        if : Keyword
+ (num : Identifiers
+ == : Relational operator
+ 0 : Integer
+.0 : Integer
+)
+            printf : Identifiers
+("You : Identifiers
+ entered : Identifiers
+ 0 : Integer
+.");
+        else : Keyword
+
+            printf : Identifiers
+("You : Identifiers
+ entered : Identifiers
+ a : Identifiers
+ negative : Identifiers
+ number : Identifiers
+.");
+    } else : Keyword
+
+        printf : Identifiers
+("You : Identifiers
+ entered : Identifiers
+ a : Identifiers
+ positive : Identifiers
+ number : Identifiers
+.");
+    return : Identifiers
+ 0 : Integer
+;
+}
